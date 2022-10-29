@@ -38,13 +38,13 @@ public class Main {
         int deliveryDistance = 95;
         int deliveryDays = 1;
         if (deliveryDistance > 20) {
-            deliveryDays++;
+            deliveryDays ++;
                 }
         if (deliveryDistance > 60) {
-            deliveryDays++;
+            deliveryDays ++;
         }
         if (deliveryDistance > 100) {
-            deliveryDays++;
+            deliveryDays ++;
         }
         System.out.println("Количесвто дней, еоторые понадобятся для доставки: " + deliveryDays);
 
